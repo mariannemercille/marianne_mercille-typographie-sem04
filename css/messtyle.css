@@ -77,6 +77,9 @@ footer p {
 /*===================================================
 Components
 =====================================================*/
+
+/*hero*/
+
 header {
     background-color: #34495E;
 }
@@ -88,7 +91,8 @@ header {
     justify-content: center;
     align-items: center;
 }
- 
+ /* banniere*/
+
 .rond{
     width: 150px;
     height: 150px;
@@ -124,11 +128,15 @@ section a {
 .banniere:hover {
     background-color: #BDC3C7;
 }
- 
+   /*paragraphe*/
+
 .texte{
     max-width: 1002px;
+    
     margin-left: auto;
     margin-right: auto;
+    
+    
     font-size: 1.25rem;
     
     gap: 60px;
@@ -141,9 +149,9 @@ section a {
    
 }
  
-.texte_droit {
-  margin-left: 216px;
-  margin-right: 70px;
+.paragraphe{
+    max-width: 471px;
+    margin-bottom: auto;
 }
 
 
@@ -151,6 +159,7 @@ section a {
  
 footer {
     background-color: #2980B9;
+    height: 100px;
 }
  
 footer .wrapper{
