@@ -20,7 +20,7 @@ font-family: "Quicksand", serif;
 Element - Base
 =====================================================*/
 .wrapper {
-    max-width: 1130px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -41,12 +41,18 @@ h1 {
  
 .citation p, h2{
     font-family: "Lato", serif;
-    font-size: 2.4rem;
+    font-size: 3rem;
     text-align: right;
     letter-spacing: 0.3rem;
     font-weight: lighter;
     margin: 0%;
     
+    
+    
+}
+
+.citation p{
+    padding-right: 140px;
 }
  
 section{
@@ -78,6 +84,9 @@ header {
 .citation h2{
     padding-top: 70px;
     padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
  
 .rond{
@@ -117,19 +126,28 @@ section a {
 }
  
 .texte{
-    display: flex;
-    gap: 65px;
+    max-width: 1002px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25rem;
+    
+    gap: 60px;
     line-height: 40px;
-    align-items: center;
+
+    display: flex;
     justify-content: center;
+    align-items: center;
+    
+   
 }
  
 .texte_droit {
   margin-left: 216px;
+  margin-right: 70px;
 }
 
 
-
+/*FOOTER*/
  
 footer {
     background-color: #2980B9;
@@ -141,6 +159,18 @@ footer .wrapper{
     align-items: center;
 }
  
+footer span{
+    font-weight: 700;
+}
+ 
+footer a{
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 1.25rem;
+}
+
 .icone{
     width: 50px;
     height: 50px;
@@ -155,11 +185,4 @@ footer .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-footer span{
-    font-weight: 700;
-}
- 
-footer a{
-    text-decoration: none;
 }
